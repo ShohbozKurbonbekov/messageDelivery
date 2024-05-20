@@ -33,14 +33,9 @@ body {
 h2 {
   font-size: 2.7rem;
 }
-.form {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
+
 input[type='text'] {
-  display: inline-block;
+  display: block;
   width: 35%;
   margin: 0 auto;
   padding: 1rem 1.5rem;
@@ -52,7 +47,7 @@ input[type='text']:focus {
   border: 3px solid var(--primary-color);
 }
 .btn {
-  display: inline-block;
+  display: block;
   width: 30%;
   margin: 0 auto;
   padding: 1rem 1.5rem;
@@ -63,6 +58,7 @@ input[type='text']:focus {
   border: none;
   border-radius: 0.5rem;
   color: #fff;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 .btn:hover {
