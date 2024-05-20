@@ -37,7 +37,7 @@ h2 {
 input[type='text'] {
   display: block;
   width: 35%;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding: 1rem 1.5rem;
   border: 3px solid var(--secondary-color);
   border-radius: 0.5rem;
@@ -58,7 +58,7 @@ input[type='text']:focus {
   border: none;
   border-radius: 0.5rem;
   color: #fff;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 .btn:hover {
